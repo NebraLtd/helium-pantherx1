@@ -260,7 +260,7 @@ jobs:
           cp "${{ env.COMPRESSED_IMAGE_PATH }}.sha512" "${{ env.IMAGE_NAME }}.zip.sha512"          
 
       - name: Upload image file and checksum to release
-        uses: svenstaro/upload-release-action@master
+        uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: ${{ env.IMAGE_NAME }}.*
