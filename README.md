@@ -2,3 +2,5 @@
 
 # helium-pantherx1
 Balena OpenFleet for Panther X1 Miners
+
+[![balena deploy button](https://www.balena.io/deploy.svg)](https://dashboard.balena-cloud.com/deploy?repoUrl=https://github.com/NebraLtd/helium-pantherx1)
